@@ -8,63 +8,68 @@
 </head>
 <body>
     <header>
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a href="#contacts">Contacts</a></li>
-                <li class="nav-item"><a href="#summery">Summery</a></li>
-                <li class="nav-item"><a href="#skills">Skills</a></li>
-                <li class="nav-item"><a href="#code">Code</a></li>
-                <li class="nav-item"><a href="#projects">Projects</a></li>
-                <li class="nav-item"><a href="#education">Education</a></li>
-                <li class="nav-item"><a href="#courses">Courses</a></li>
-                <li class="nav-item"><a href="#languages">Languages</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts">Contacts</a></li>
+                    <li class="nav-item"><a href="#summery">Summery</a></li>
+                    <li class="nav-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-item"><a href="#code">Code</a></li>
+                    <li class="nav-item"><a href="#projects">Projects</a></li>
+                    <li class="nav-item"><a href="#education">Education</a></li>
+                    <li class="nav-item"><a href="#courses">Courses</a></li>
+                    <li class="nav-item"><a href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
 <main class="main">
-    <section class="main" id="profile">
-        <h1 class="main_title">ELENA  CHIZHIKOVA</h1>
-        <h2 class="position">JUNIOR  JAVASCRIPT  DEVELOPER</h2>
-        <img src="photo.jpg" alt="my photo">
-    </section>
+    <div class="container">
+        <section class="main" id="profile">
+            <h1 class="main_title">ELENA  CHIZHIKOVA</h1>
+            <h2 class="position">JUNIOR  JAVASCRIPT  DEVELOPER</h2>
+            <img src="photo.jpg" alt="my photo" width="198" height="241">
+        </section>
 
-    <section class="section-contacts" id="contacts">
-        <h2 class="section-contacts">Contacts</h2>
-        <ul class="contacts-list">
-            <li class="contacts-item">Discord: ElenaChizhikova#5023</li>
-            <li class="contacts-item">Email: lianok_k@tut.by</li>
-            <li class="contacts-item">LinkedIn: Elena Chizhikova</li>
-            <li class="contacts-item">Location: Minsk, Belarus</li>     
-        </ul>
-    </section>
+        <section class="section-contacts" id="contacts">
+            <h2 class="section-contacts">Contacts</h2>
+            <ul class="contacts-list">
+                <li class="contacts-item">Discord: ElenaChizhikova#5023</li>
+                <li class="contacts-item">Email: lianok_k@tut.by</li>
+                <li class="contacts-item">LinkedIn: Elena Chizhikova</li>
+                <li class="contacts-item">Location: Minsk, Belarus</li>     
+            </ul>
+        </section>
 
-    <section class="section-summary" id="summary">
-        <h2 class="section-summary">Summary</h2>
-        <p class="section-summary">Analytical mind
-            High level of responsibility
-            Work in multitasking mode
-            Ability to work both in a team and independently
-            Experience in managing a team of up to 6 people
-            Well-developed interpersonal skills</p>
-    </section>
+        <section class="section-summary" id="summary">
+            <h2 class="section-summary">Summary</h2>
+            <p class="section-summary">Proficient Engineer with 15 years of experience in designing Power Electric Plants.<br>
+                Able to work both in a team and independently.<br>
+                Well-developed interpersonal skills.<br>
+                Ready to challenges, learn new stuff and acquire experience.</p>
+        </section>
 
-    <section class="section-skills" id="skills">
-        <h2 class="section-contacts">Skills</h2>
-        <ul class="skills-list">
-            <li class="skills-item">HTML5</li>
-            <li class="skills-item">CSS3</li>
-            <li class="skills-item">Visual Studio Code</li>
-            <li class="skills-item">GitHub</li>     
-        </ul>
-    </section>
+        <section class="section-skills" id="skills">
+            <h2 class="section-contacts">Skills</h2>
+            <ul class="skills-list">
+                <li class="skills-item">HTML5</li>
+                <li class="skills-item">CSS3</li>
+                <li class="skills-item">Visual Studio Code</li>
+                <li class="skills-item">GitHub</li>     
+            </ul>
+        </section>
 
-    <section class="section-code" id="code">
-        <h2 class="section-code">Code Example</h2>
-        <code>
-            <! TO DO>
-        </code>
-    </section>
+        <section class="section-code" id="code">
+            <h2 class="section-code">Code Example</h2>
+            <pre>
+                <code>
+                    const square = (num) => {
+                        return num * num;
+                    };          
+                </code>
+            </pre>
+        </section>
 
         <section class="section-projects" id="projects">
             <h2 class="section-projects">Projects</h2>
@@ -73,7 +78,7 @@
 
         <section class="section-education" id="education">
             <h2 class="section-education">Education</h2>
-            <p class="section-education">Bachelor in Thermal Electric Power Stations, BNTU 2006</p>
+            <p class="section-education">Bachelor in Thermal Power Plants, BNTU 2006</p>
         </section>
 
         <section class="section-courses" id="courses">
@@ -85,24 +90,27 @@
         <section class="section-languages" id="languages">
             <h2 class="section-languages">Languages</h2>
             <ul class="languages-list">
-                <li class="languages-item">English&mdash;Upper-Intermediate</li>
-                <li class="languages-item">Polish&mdash;Pre-Intermediate</li>
-                <li class="languages-item">Russian&mdash;Native Speaker</li>
+                <li class="languages-item">English &mdash; Upper-Intermediate</li>
+                <li class="languages-item">Polish &mdash; Pre-Intermediate</li>
+                <li class="languages-item">Russian &mdash; Native Speaker</li>
             </ul>
         </section>
+    </div>
 </main>
 
 
 <footer class="footer">
-    <div class="footer">
+    <div class="container">
         <ul class="footer-list">
             <li class="footer-item">
-                <a class="footer-link" href="https://github.com/ElenaChizhikova84">GitHub</a>
+                <a class="footer-link" href="https://github.com/ElenaChizhikova84">
+                    <img src="https://cdn.onlinewebfonts.com/svg/img_326384.png" alt="GitHub" width="50">
+                </a>
             </li>
             <li class="footer-item">2023</li>
             <li class="footer-item">
                 <a class="footer-link" href="https://rs.school/js-stage0/">
-                    <img width="100" src="https://rs.school/images/rs_school_js.svg" alt="RS School">
+                    <img src="https://rs.school/images/rs_school_js.svg" alt="RS School" width="100">
                 </a>                    
             </li>
         </ul>
