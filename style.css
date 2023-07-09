@@ -35,6 +35,8 @@ a:active {
     margin: 0;
     padding: 20px;
 }
+
+
 .section-title {
     font-size: 20px;
     font-weight: 600;
@@ -58,8 +60,13 @@ a:active {
 }
 
 .container {
-    max-width: 1200;
+    max-width: 1440;
     margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .nav-list {
@@ -76,18 +83,25 @@ a:active {
     color: #000000;
 }
 
+.section {
+    width: 50%;
+}
+
 .profile {
     display: flex;
     align-items: center;
+    padding-bottom: 25;
 }
 
 .profile-foto {
-    width: 60%;
+    width: 40%;
+    margin: 0 auto;
 }
 
 .profile-info {
-    width: 40%;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto;
+    margin-left: 100px;
 }
 
 .contacts-list {
@@ -131,13 +145,8 @@ html {
     list-style: none;
 }
 
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.section {
-    width: 50%;
-}
-
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
