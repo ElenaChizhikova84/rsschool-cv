@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #000000;
+    background-color: #ecf0fc;
+}
+
+header, footer {
+    background-color: #d5defa;
+}
+
+a:hover {
+    background-color: #c6d2f5;
+    text-transform: uppercase;
+}
+
+a:active {
+    background-color: #c6d2f5;
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0;
+    padding: 20px;
+}
+.section-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #000000;
+}
+
+.main-title {
+    font-size: 200%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.position {
+    font-size: 150%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-foto {
+    width: 60%;
+}
+
+.profile-info {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.contacts-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.projects-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+pre {
+    padding: 0;
+}
+
+.languages-list {
+    list-style: none;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+  
+  .footer container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.section {
+    width: 50%;
+}
+
