@@ -1,1 +1,1 @@
-https://ElenaChizhikova84.github.io/rsschool-cv/
+https://Lianok.github.io/rsschool-cv/
